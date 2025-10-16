@@ -1,0 +1,21 @@
+# Core dependencies
+pandas==2.1.1
+numpy==1.26.4
+matplotlib==3.8.0
+seaborn==0.12.2
+scipy==1.11.3
+
+# Quantitative analytics
+quantstats==0.0.60
+yfinance==0.2.43
+
+# Utility packages
+joblib==1.3.2
+tqdm==4.66.1
+PyYAML==6.0.2
+
+# Reporting & PDF generation
+pdfkit==1.0.0
+
+# Notebook and visualization
+jupyter==1.0.0

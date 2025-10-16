@@ -1,0 +1,23 @@
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Ignore raw data and cache
+data/
+notebooks/cache_minute_data/
+*.csv
+*.parquet
+
+# Ignore local environments
+*.env
+.env/
+*.log
+
+# Ignore Jupyter autosaves
+.ipynb_checkpoints/
+
+# Ignore PDFs and heavy outputs (optional for large repos)
+outputs/*.zip
+outputs/*.pdf

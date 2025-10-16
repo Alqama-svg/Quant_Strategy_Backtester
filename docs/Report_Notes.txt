@@ -1,0 +1,41 @@
+Overview:
+----------
+This document summarizes important contextual and interpretive notes
+associated with the QuantX V4.9 backtest, report, and data outputs.
+
+1. Strategy Overview:
+   QuantX V4.9 implements an intraday mean-reversion framework using
+   standardized Z-score deviations between price and a short-term moving
+   average. All trades are intraday, with no overnight exposure.
+
+2. Leverage:
+   No leverage was used during this backtest. All capital allocations
+   were based on a nominal capital of $1,000,000.
+
+3. Equity Curve Start Date:
+   The equity curve begins on 2024-01-08 because the rolling window
+   indicators required a warm-up period to produce valid signals.
+
+4. Data Source:
+   Proprietary intraday OHLCV data (5-minute resolution) for 32 large-cap
+   U.S. equities, primarily from the Dow 30 universe.
+
+5. Sharpe Ratio Clarification:
+   The strategy-level backtest engine Sharpe (≈2.36) and QuantStats Sharpe
+   (≈0.12) differ due to frequency and annualization factors.
+   The backtest Sharpe is computed on intraday trade-level returns,
+   whereas QuantStats annualizes daily returns.
+
+6. File Outputs:
+   - QuantX_Final_Backtest_Results.pdf : Consolidated performance visuals.
+   - QuantX_V4.9_QuantStats_Report_Full.pdf : Full QuantStats tear sheet.
+   - QuantX_V4.9_Trades_Report.xlsx : Detailed trade log.
+   - QuantX_V4.9_EquityCurve.xlsx : Cumulative equity progression.
+
+7. Known Visualization Artifacts:
+   Some raw ticker charts displayed vertical lines due to missing or zero
+   price data points. These were cleaned using data filtering.
+
+8. Future Enhancements:
+   Potential extensions include regime-based thresholding, portfolio-level
+   risk budgeting, and reinforcement learning-based execution scheduling.
