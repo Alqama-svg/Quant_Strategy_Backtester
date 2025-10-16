@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-**QuantX V4.9** is a systematic **intraday mean-reversion** trading framework designed to exploit short-term price dislocations in large-cap U.S. equities.  
+**Quant Strategy Backtester** is a systematic **intraday mean-reversion** trading framework designed to exploit short-term price dislocations in large-cap U.S. equities.  
 The system operates without leverage and adheres to strict capital and risk management constraints. It combines statistical signal generation, volatility-adjusted position sizing, and execution constraints designed for realistic intraday trading environments.
 
 The repository contains the full implementation, quantitative reports, and analytical outputs from the **V4.9 backtest**, including the equity curve, performance tear sheet, per-ticker trade charts, and trade-level reports.
