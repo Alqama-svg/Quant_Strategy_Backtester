@@ -1,4 +1,4 @@
-# QuantX V4.9 — Intraday Mean-Reversion Trading Strategy
+# Quant Strategy Backtester — Intraday Mean-Reversion Trading Strategy
 
 ## 1. Overview
 
