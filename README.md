@@ -18,7 +18,7 @@ Click below to explore the full institutional-style interactive report (Sharpe, 
 
 ### 2.1 Core Concept
 
-The QuantX V4.9 system is based on the hypothesis that **short-term price overextensions** within intraday horizons tend to revert toward their mean when normalized for volatility. The model identifies and exploits these temporary inefficiencies using a standardized statistical deviation measure (Z-score).
+The Quant Strategy Backtester system is based on the hypothesis that **short-term price overextensions** within intraday horizons tend to revert toward their mean when normalized for volatility. The model identifies and exploits these temporary inefficiencies using a standardized statistical deviation measure (Z-score).
 
 ### 2.2 Signal Generation Logic
 
