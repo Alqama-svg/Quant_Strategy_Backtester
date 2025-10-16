@@ -223,7 +223,7 @@ The following analytical components are provided as part of the QuantX V4.9 back
 ## 11. Repository Structure
 
 ```
-QuantX_V4.9/
+Quant_Strategy_Backtester/
 ├── README.md
 ├── environment.yml
 ├── requirements.txt
