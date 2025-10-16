@@ -255,22 +255,7 @@ QuantX_V4.9/
 ```
 ---
 
-
----
-
-## 12. Key Deliverables
-
-| File | Description |
-|------|--------------|
-| **QuantX_Final_Backtest_Results.pdf** | Consolidated summary of strategy performance |
-| **QuantX_V4.9_QuantStats_Report_Full.pdf** | Full institutional-style tear sheet |
-| **QuantX_V4.9_Trades_Report.xlsx** | Trade-by-trade performance record |
-| **QuantX_V4.9_EquityCurve.xlsx** | Time series of cumulative equity |
-| **Ticker Charts (PNG)** | Visual representation of trades per stock |
-
----
-
-## 13. Conclusion
+## 12. Conclusion
 
 QuantX V4.9 demonstrates the efficacy of a statistically disciplined, volatility-adjusted intraday mean-reversion framework.  
 The backtest confirms that a properly parameterized short-horizon strategy can achieve superior risk-adjusted returns while maintaining minimal drawdowns.
@@ -279,17 +264,17 @@ This repository serves as a complete and reproducible record of the strategy’s
 
 ---
 
-## 14. License
+## 13. License
 
 Released under the MIT License.  
 Copyright © 2025 Alqama Ansari.
 
 ---
 
-## 15. Citation
+## 14. Citation
 
 If referencing or using this codebase in research:
 
 Ansari, A. (2025). QuantX V4.9: Intraday Mean-Reversion Strategy Backtest.
 GitHub Repository. https://github.com/
-<username>/QuantX_V4.9
+<username>/Quant_Strategy_Backtester
