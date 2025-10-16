@@ -6,6 +6,11 @@
 The system operates without leverage and adheres to strict capital and risk management constraints. It combines statistical signal generation, volatility-adjusted position sizing, and execution constraints designed for realistic intraday trading environments.
 
 The repository contains the full implementation, quantitative reports, and analytical outputs from the **V4.9 backtest**, including the equity curve, performance tear sheet, per-ticker trade charts, and trade-level reports.
+### QuantStats Performance Report
+
+The complete backtest analysis for the strategy has been published using QuantStats, providing a deep dive into performance, risk, and return metrics.
+Click below to explore the full institutional-style interactive report (Sharpe, Sortino, Drawdowns, Rolling Returns, and much more):
+[Click here to view the full QuantStats backtest report](https://alqama-svg.github.io/Quant_Strategy_Backtester/)
 
 ---
 
